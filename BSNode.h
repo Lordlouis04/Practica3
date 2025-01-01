@@ -18,13 +18,10 @@ class BSNode{
 		this->left=left;		
 	}
 	
-	friend std::ostream& operator<<(ostream &out, const BSNode<T> &bsn){
+	friend ostream& operator<<(ostream &out, const BSNode<T> &bsn){
 		out << bsn.elem;
 		return out;
 	}
-
-
-	
 
 };
 #endif
